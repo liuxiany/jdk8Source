@@ -1,9 +1,35 @@
-.idea/
-*.iml
-target/
-*.DS_Store
+#java
+*.class
 
-application-local.properties
-application-grpc-local.properties
-application-user-local.properties
-application-file-local.properties
+#package file
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+#maven ignore
+target/
+build/
+
+#eclipse ignore
+.settings/
+.project
+.classpatch
+
+#Intellij idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+# temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
